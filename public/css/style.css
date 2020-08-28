@@ -1,0 +1,98 @@
+.btn{
+    border-radius: 0px;
+}
+
+.my-card{
+    /* min-width: 300px;
+    min-height: 500px; */
+    background-color: aquamarine;
+}
+
+.profile-image{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    /* min-width: 50px;
+    min-height: 50px;  */
+    /* max-width: 50px;
+    max-height: 50px;  */
+    background-color: white;
+}
+.courses-row{
+    display: flex;    
+}
+.courses-card{
+    margin: 10px;
+    color: black;
+    background-color: white !important;
+}
+.card-title{    
+    color: black !important;
+}
+.assigned-students-row{
+    display: flex;
+}
+.student-img{
+    border-radius: 50%;
+    background-color: blueviolet;
+    min-width: 50px;
+    min-height: 50px;    
+}
+.student-block{
+    margin: 10px;
+}
+
+.card{
+    background-color: bisque;
+    border : none;
+    border-radius: 1rem;
+}
+
+.navbar{
+    background-color: bisque !important;
+    color: white !important;
+}
+
+.nav-link{    
+    color: black !important;
+}
+.tbody-bg{
+    background-color: white !important;
+}
+.thead-bg{
+    background-color: bisque !important;
+}
+.btn-bg{
+    background-color: bisque !important;
+    border-radius: 0.5rem;
+}
+
+.btn-file{
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type="file"]
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+.clickable-cards .card-title{
+    
+}
+.clickable-cards:hover {
+    text-decoration: none;
+    /* transition: box-shadow 0.2s ease, transform 0.2s ease; */
+    transform: scale(0.95);
+    box-shadow: 0 0 0 5px #eeeeee; 
+}
